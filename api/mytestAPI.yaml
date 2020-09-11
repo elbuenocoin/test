@@ -4,3 +4,24 @@ info:
   title: My API
   version: 1.0.0
   description: description API
+paths:
+  /monapi/rechercher:
+    get:
+      responses:
+        "200":
+          description: description
+    put:
+      responses:
+        "200":
+          description: description
+    post:
+      responses:
+        "200":
+          description: description
+    parameters:
+    - name: what
+      description: c'est quoi ?
+      schema:
+        type: string
+      in: query
+      required: true
